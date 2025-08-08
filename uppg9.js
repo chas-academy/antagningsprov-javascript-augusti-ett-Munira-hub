@@ -7,7 +7,14 @@ function uppg9 (){
     // resultatet ska loggas i formatet: talet och sen ordet "jämt" eller "udda"
 
     // anropa funktionen och skicka med en array som argument
+    function sort(numbers) {
+        for (const num of numbers) {
+            const resultat = (num % 2 === 0) ? "jämt" : "udda";
+            console.log(num + " " + resultat);
+        }
+    }
 
+    sort([7, 12, 19, 24, 31, 44]);
   
 }
 
