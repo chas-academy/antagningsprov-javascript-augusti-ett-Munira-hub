@@ -1,5 +1,5 @@
 function uppg9() {
- 
+
     function sort(numbers) {
         for (const num of numbers) {
             if (num % 2 === 0) {
