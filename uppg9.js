@@ -8,7 +8,8 @@ function uppg9() {
             }
         }
     }
-    sort([2, 5, 8, 13, 22, 27]);
+
+    sort([7, 12, 19, 24, 31, 44]);
 }
 
 module.exports = { uppg9 };
