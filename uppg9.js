@@ -1,16 +1,17 @@
 
+function uppg9() {
 
-function uppg9 (){
-  
     function sort(numbers) {
         for (const num of numbers) {
-            const resultat = (num % 2 === 0) ? "jämt" : "udda";
-            console.log(num + " " + resultat);
+            if (num % 2 === 0) {
+                console.log(num, "jämt");
+            } else {
+                console.log(num, "udda");
+            }
         }
     }
 
     sort([7, 12, 19, 24, 31, 44]);
-  
 }
 
 module.exports = { uppg9 };
