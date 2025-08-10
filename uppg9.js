@@ -1,6 +1,5 @@
 
 function uppg9() {
-
     function sort(numbers) {
         for (const num of numbers) {
             if (num % 2 === 0) {
@@ -10,7 +9,6 @@ function uppg9() {
             }
         }
     }
-
     sort([7, 12, 19, 24, 31, 44]);
 }
 
